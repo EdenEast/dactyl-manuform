@@ -1,4 +1,4 @@
-layout := "5x7"
+layout := "4x5"
 
 # colors
 reset := '\033[0m'
