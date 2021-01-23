@@ -1449,10 +1449,10 @@
 (spit "things/left.scad"
       (write-scad (mirror [-1 0 0] model-right)))
 
-(spit "things/right-test.scad"
-      (write-scad (union model-right
-                         thumbcaps-type
-                         caps)))
+; (spit "things/right-test.scad"
+;       (write-scad (union model-right
+;                          thumbcaps-type
+;                          caps)))
 
 (spit "things/right-plate.scad"
       (write-scad
