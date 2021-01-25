@@ -21,6 +21,7 @@ generate: build
     done
 
     printf "Generation {{green}}finished{{reset}}\n"
+    echo "$(git rev-parse HEAD)" > $result_dir/commit
 
 build:
     #!/usr/bin/env bash
