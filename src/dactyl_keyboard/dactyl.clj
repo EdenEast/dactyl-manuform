@@ -1342,7 +1342,7 @@
 (when (and (false? pinky-15u) (false? extra-row))
     (def screw-offset-tr [-4 6.5 0])
     (def screw-offset-br [-6 13 0]))
-    
+
 ; Offsets for the screw inserts dependent on thumb-style & inner-column
 (when (and (= thumb-style "cf") inner-column)
     (def screw-offset-bl [13 4 0])
